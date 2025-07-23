@@ -1,0 +1,67 @@
+.orders {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+thead {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+td:nth-child(4) {
+  font-weight: bold;
+}
+
+td.buy {
+  color: green;
+}
+
+td.sell {
+  color: red;
+}
+
+.no-orders {
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #0055ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #003fcc;
+}
+
+.price-up {
+  color: green;
+  transition: color 0.3s ease;
+}
+
+.price-down {
+  color: red;
+  transition: color 0.3s ease;
+}
